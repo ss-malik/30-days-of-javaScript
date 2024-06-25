@@ -37,4 +37,7 @@ let score =
     : marksGet < 80
     ? "distinction"
     : "Genius";
-console.log(score);
+// console.log(score);
+
+let ans = 70 > 50 == 1;
+console.log(ans);
