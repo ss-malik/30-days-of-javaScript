@@ -7,7 +7,30 @@
     <style>
       .btn-red {
         background-color: red;
-        color: #fff;
+        color: #666;
+      }
+      #form {
+        background-color: #333;
+        padding: 20px;
+        color: #f9f9f9;
+      }
+      #division {
+        background-color: #666;
+        padding: 15px;
+      }
+      #paragraph {
+        background-color: #f9f9f9;
+        padding: 15px;
+        color: #333;
+      }
+
+      #delegation {
+        margin-top: 25px;
+      }
+      a {
+        padding: 10px 20px;
+        color: #f9f9f9;
+        background-color: #333;
       }
     </style>
   </head>
@@ -20,10 +43,27 @@
       <input type="text" class="input" />
       <p class="para"></p>
     </div>
+    <form id="form">
+      <h3>form</h3>
+      <div id="division">
+        <h4>division</h4>
+        <p id="paragraph">Lorem ipsum dolor sit amet.</p>
+      </div>
+    </form>
+
+    <div id="delegation">
+      <a href="#" id="one">one</a>
+      <a href="#" id="two">two</a>
+      <a href="#" id="three">three</a>
+      <a href="#" id="four">four</a>
+      <a href="#" id="five">five</a>
+      <a href="#" id="six">Six</a>
+    </div>
 
     <script src="index.js"></script>
     <script src="eventListner.js"></script>
     <script src="eventListner1.js"></script>
     <script src="mouseEvent.js"></script>
+    <script src="eventBubbling.js"></script>
   </body>
 </html>
